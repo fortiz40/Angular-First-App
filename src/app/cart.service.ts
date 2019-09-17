@@ -14,6 +14,7 @@ export class CartService {
 
   addToCart(product) {
     this.items.push(product);
+    console.log('Items in cart', this.items)
   }
 
   getItems() {
